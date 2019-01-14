@@ -41,6 +41,7 @@ namespace Opgave1
             {
                 Console.Write("Press any key to continue . . . ");
 
+
                 Console.ReadKey();
             }   
         }
