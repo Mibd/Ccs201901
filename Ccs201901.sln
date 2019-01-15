@@ -11,6 +11,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Variabler2", "Variabler2\Va
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Variabler2 STRING", "Variabler2 STRING\Variabler2 STRING.csproj", "{8F3AF264-2577-443D-8896-ABF88A78D4AF}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Struct og Enum", "Struct og Enum\Struct og Enum.csproj", "{8CF5AB78-6E3D-4F52-B0F2-2200A733F038}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +35,10 @@ Global
 		{8F3AF264-2577-443D-8896-ABF88A78D4AF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8F3AF264-2577-443D-8896-ABF88A78D4AF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8F3AF264-2577-443D-8896-ABF88A78D4AF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8CF5AB78-6E3D-4F52-B0F2-2200A733F038}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8CF5AB78-6E3D-4F52-B0F2-2200A733F038}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8CF5AB78-6E3D-4F52-B0F2-2200A733F038}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8CF5AB78-6E3D-4F52-B0F2-2200A733F038}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
