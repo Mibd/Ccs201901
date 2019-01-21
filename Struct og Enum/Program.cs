@@ -11,7 +11,7 @@ namespace Struct_og_Enum
     {
         
 
-
+// kjh kjh kjh 
 
         static void Main(string[] args)
         {
