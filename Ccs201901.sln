@@ -19,6 +19,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Metoder_Statisk", "Metoder_
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Fejlhåndtering", "Fejlhåndtering\Fejlhåndtering.csproj", "{2A801EAF-6772-49BF-93DF-7F380B5A0B3B}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Stack og Heap", "Stack og Heap\Stack og Heap.csproj", "{E42A8954-C288-412D-AAA8-A70D3A6F214C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -57,6 +59,10 @@ Global
 		{2A801EAF-6772-49BF-93DF-7F380B5A0B3B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2A801EAF-6772-49BF-93DF-7F380B5A0B3B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2A801EAF-6772-49BF-93DF-7F380B5A0B3B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E42A8954-C288-412D-AAA8-A70D3A6F214C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E42A8954-C288-412D-AAA8-A70D3A6F214C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E42A8954-C288-412D-AAA8-A70D3A6F214C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E42A8954-C288-412D-AAA8-A70D3A6F214C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
