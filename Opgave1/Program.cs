@@ -31,7 +31,7 @@ namespace Opgave1
             Console.WriteLine(b);
 
 
-            //fdgdhgdfg
+            
 
 
 
