@@ -13,13 +13,15 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Variabler2 STRING", "Variab
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Struct og Enum", "Struct og Enum\Struct og Enum.csproj", "{8CF5AB78-6E3D-4F52-B0F2-2200A733F038}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Metode", "Metode\Metode.csproj", "{4C8924C1-8CA1-470B-8BA8-107EFE0639AF}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Metode", "Metode\Metode.csproj", "{4C8924C1-8CA1-470B-8BA8-107EFE0639AF}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Metoder_Statisk", "Metoder_Statisk\Metoder_Statisk.csproj", "{F7C77F4E-1267-45C2-9B54-17B7B5E574D4}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Fejlhåndtering", "Fejlhåndtering\Fejlhåndtering.csproj", "{2A801EAF-6772-49BF-93DF-7F380B5A0B3B}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Stack og Heap", "Stack og Heap\Stack og Heap.csproj", "{E42A8954-C288-412D-AAA8-A70D3A6F214C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Klasser _ Simpel", "Klasser _ Simpel\Klasser _ Simpel.csproj", "{04255C0D-F943-4BD4-AB92-D2955E370F4C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -63,6 +65,10 @@ Global
 		{E42A8954-C288-412D-AAA8-A70D3A6F214C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E42A8954-C288-412D-AAA8-A70D3A6F214C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E42A8954-C288-412D-AAA8-A70D3A6F214C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{04255C0D-F943-4BD4-AB92-D2955E370F4C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{04255C0D-F943-4BD4-AB92-D2955E370F4C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{04255C0D-F943-4BD4-AB92-D2955E370F4C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{04255C0D-F943-4BD4-AB92-D2955E370F4C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
