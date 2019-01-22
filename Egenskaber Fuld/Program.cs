@@ -82,6 +82,7 @@ namespace Egenskaber_Fuld
             {
             return this.pris * 1.25;
             }
+     
     }
 
         
