@@ -25,10 +25,12 @@ namespace Klasser___Simpel
             p3.Efternavn = "Grethe";
             p3.Fødselsår = 2001;
 
+            Person p4 = new Person() {Fornavn = "Birger", Efternavn = "Hansen",Fødselsår = 2011};
+
             Console.WriteLine(p1.Fuldtnavn() + " " + p1.Alder());
             Console.WriteLine(p2.Fuldtnavn() + " " + p2.Alder());
             Console.WriteLine(p3.Fuldtnavn() + " " + p3.Alder());
-
+            Console.WriteLine(p4.Fuldtnavn() + " " + p4.Alder());
 
 
             if (System.Diagnostics.Debugger.IsAttached)

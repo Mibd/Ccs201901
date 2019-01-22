@@ -23,6 +23,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Stack og Heap", "Stack og H
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Klasser _ Simpel", "Klasser _ Simpel\Klasser _ Simpel.csproj", "{04255C0D-F943-4BD4-AB92-D2955E370F4C}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Klasser _ Statisk", "Klasser _ Statisk\Klasser _ Statisk.csproj", "{896855E0-6412-4D0B-AA61-E9B035E60E05}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Egenskaber Fuld", "Egenskaber Fuld\Egenskaber Fuld.csproj", "{D6B0BAA7-E4AA-4C9D-84DC-19DF33BDE6AA}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -69,6 +73,14 @@ Global
 		{04255C0D-F943-4BD4-AB92-D2955E370F4C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{04255C0D-F943-4BD4-AB92-D2955E370F4C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{04255C0D-F943-4BD4-AB92-D2955E370F4C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{896855E0-6412-4D0B-AA61-E9B035E60E05}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{896855E0-6412-4D0B-AA61-E9B035E60E05}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{896855E0-6412-4D0B-AA61-E9B035E60E05}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{896855E0-6412-4D0B-AA61-E9B035E60E05}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D6B0BAA7-E4AA-4C9D-84DC-19DF33BDE6AA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D6B0BAA7-E4AA-4C9D-84DC-19DF33BDE6AA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D6B0BAA7-E4AA-4C9D-84DC-19DF33BDE6AA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D6B0BAA7-E4AA-4C9D-84DC-19DF33BDE6AA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
