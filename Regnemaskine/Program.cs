@@ -19,7 +19,7 @@ namespace Regnemaskine
             String_var2 = Console.ReadLine();
 
             Double t1 = System.Convert.ToDouble(String_var1); //Konvertere String_var1 til Double (Real)
-            Double t2 = System.Convert.ToDouble(String_var1);
+            Double t2 = System.Convert.ToDouble(String_var2);
 
             Double Resultat = t1 + t2;
 

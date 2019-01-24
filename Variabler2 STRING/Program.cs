@@ -12,17 +12,20 @@ namespace Variabler2_STRING
         {
 
             {
-                String fornavn = "Michael";
-                String efternavn = "Danielsen";
+                string fornavn = "Michael";
+                string efternavn = "Danielsen";
 
-                String samletnavn = fornavn +' '+ efternavn;
-                Console.WriteLine(samletnavn);
+                string fulde_navn = fornavn + " " + efternavn;
+                Console.WriteLine(fulde_navn);
 
-                var navnSTORT = samletnavn.ToUpper();
-                Console.WriteLine(navnSTORT);
+                string navnStort = fulde_navn.ToUpper();
+                Console.WriteLine(navnStort);
 
-                var navnLille = samletnavn.ToLower();
-                Console.WriteLine(navnLille);
+                string navnlille = fulde_navn.ToLower();
+                Console.WriteLine(navnlille);
+
+                string udtræk = fulde_navn.Substring(8, 4);  //Fra og hvor langt angives i parantesen
+                Console.WriteLine(udtræk);
             }
 
 
