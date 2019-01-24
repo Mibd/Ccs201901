@@ -11,13 +11,13 @@ namespace Struct_og_Enum
     {
         
 
-// kjh kjh kjh 
+
 
         static void Main(string[] args)
         {
 
             {
-                Kortkulør kort1Værdi = Kortkulør.Hjerter;
+                Kortkulør kort1Værdi = Kortkulør.Ruder;
 
                 Console.WriteLine(kort1Værdi.ToString());
                 Console.WriteLine((int)kort1Værdi);

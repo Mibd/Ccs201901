@@ -37,6 +37,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Array Split", "Aeeay Split\
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "test prog KAN SLETTES", "test prog KAN SLETTES\test prog KAN SLETTES.csproj", "{3858A4BE-476A-4E5E-B029-42800D78EB35}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Struct", "Struct\Struct.csproj", "{4FB0A5EC-5E23-47B0-8238-E30459FD9266}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -111,6 +113,10 @@ Global
 		{3858A4BE-476A-4E5E-B029-42800D78EB35}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3858A4BE-476A-4E5E-B029-42800D78EB35}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3858A4BE-476A-4E5E-B029-42800D78EB35}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4FB0A5EC-5E23-47B0-8238-E30459FD9266}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4FB0A5EC-5E23-47B0-8238-E30459FD9266}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4FB0A5EC-5E23-47B0-8238-E30459FD9266}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4FB0A5EC-5E23-47B0-8238-E30459FD9266}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
