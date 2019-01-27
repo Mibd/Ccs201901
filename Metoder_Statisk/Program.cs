@@ -19,9 +19,15 @@ namespace Metoder_Statisk
             {
                 string indhold = System.IO.File.ReadAllText(@"c:\temp\test.txt"); //
 
-                Console.WriteLine($"{indhold}");
+                Console.WriteLine($"{indhold}");  //Henter filens indhold
             }
 
+            var fil = new System.IO.FileInfo(@"c:\temp\test.txt");
+            DateTime d = fil.LastAccessTime;
+            Console.WriteLine($"Tid: {d}");  //Henter sidste tidsstempling for filen
+
+            string ex = fil.Extension;
+            Console.WriteLine($"Extension: {ex}"); //Henter filtypen
 
 
 

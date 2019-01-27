@@ -11,22 +11,32 @@ namespace DebugDemo
     {
         static void Main(string[] args)
         {
-            Terning t1 = new Terning();
-            Console.WriteLine(t1.Værdi);
-            t1.Ryst();
-            Console.WriteLine(t1.Værdi);
-
-            Terning t2 = new Terning(6);
-            Console.WriteLine(t2.Værdi);
-            t2.Ryst();
-            Console.WriteLine(t2.Værdi);
-
-            Terning t3 = new Terning();
-            EventHandler f = (s, e) => Console.WriteLine("Juuubiii");
-            t3.ErSekser += f;
-            t3.Ryst();
-            Console.WriteLine(t3.Værdi);
-            t3.ErSekser -= f;
+            F1();
+            void F1()
+            {
+                Console.WriteLine("I F1()");
+                F2();
+            }
+            void F2()
+            {
+                Console.WriteLine("I F2()");
+                F3();
+            }
+            void F3()
+            {
+                Console.WriteLine("I F3()");
+                F4();
+            }
+            void F4()
+            {
+                Console.WriteLine("I F4()");
+                F5();
+            }
+            void F5()
+            {
+                Console.WriteLine("I F5()");
+                // F1(); (puha - skaber rekursivt kald)
+            }
 
 
             if (System.Diagnostics.Debugger.IsAttached)

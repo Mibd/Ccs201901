@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Opgave1
+namespace Metode_Simple
 {
     class Program
     {
@@ -19,28 +19,15 @@ namespace Opgave1
 
             Console.WriteLine(res2); // Viser reultatet på konsollen
 
-            Udskriv("Dette er min tekst"); // Bruger metoden Udskriv til at udskrive den angivede tekst
+            Udskriv("Michael");
 
-            double Beregn = Resultat(1.00, 2.00, 3.33);
-            Console.WriteLine(Beregn);
-
-            Person P = new Person();
-            P.Alder = 53;
-            P.Navn = "Michael";
-
-
-        }
-
-        struct Person
-        {
-            public string Navn;
-            public int Alder;
-
-            public void Udskriv()
+            if (System.Diagnostics.Debugger.IsAttached)
             {
-                Console.WriteLine($"Jeg hedder {this.Navn}");
-
+                Console.Write("Press any key to continue . . . ");
+                Console.ReadKey();
             }
+
+               
         }
         
         
@@ -53,15 +40,12 @@ namespace Opgave1
         {
             return v1 + v2;
         }
+
         static void Udskriv(string text)
         {
             Console.WriteLine(text);
         }
-        private static double Resultat(double x, double y, double z)
-        {
-            return x * y - z;
 
-        }
 
     }
 }
