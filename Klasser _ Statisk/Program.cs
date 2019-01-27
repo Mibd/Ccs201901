@@ -10,6 +10,9 @@ namespace Klasser___Statisk
     {
         static void Main(string[] args)
         {
+
+
+
         }
     }
 }
