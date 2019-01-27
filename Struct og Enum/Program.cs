@@ -17,11 +17,15 @@ namespace Struct_og_Enum
         {
 
             {
-                Kortkulør kort1Værdi = Kortkulør.Ruder;
+                SpilleKort s1 = new SpilleKort();
+                s1.Værdi = 2;
+                s1.Kulør = Kulør.Spar;
+                Console.WriteLine($"{s1.Kulør} {s1.Værdi}");
 
-                Console.WriteLine(kort1Værdi.ToString());
-                Console.WriteLine((int)kort1Værdi);
-
+                SpilleKort s2 = new SpilleKort();
+                s2.Værdi = 10;
+                s2.Kulør = Kulør.Hjerter;
+                Console.WriteLine($"{s2.Kulør} {s2.Værdi}");
 
 
 
@@ -45,4 +49,18 @@ namespace Struct_og_Enum
 
         }
     }
+    enum Kulør
+    {
+        Spar,
+        Hjerter,
+        Ruder,
+        Klør
+    }
+
+    struct SpilleKort
+    {
+        public int Værdi;
+        public Kulør Kulør;
+    }
+
 }

@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{8CF5AB78-6E3D-4F52-B0F2-2200A733F038}</ProjectGuid>
+    <ProjectGuid>{65EF8A08-8792-4B18-8C14-F535D3188B7E}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>Struct_og_Enum</RootNamespace>
-    <AssemblyName>Struct og Enum</AssemblyName>
+    <RootNamespace>Flow_break_og_continue</RootNamespace>
+    <AssemblyName>Flow break og continue</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -48,9 +48,6 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
-  </ItemGroup>
-  <ItemGroup>
-    <Folder Include="Typer\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
