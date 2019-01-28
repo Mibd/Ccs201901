@@ -4,15 +4,16 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-
-namespace DebugDemo
+namespace Arv_Polymorfi
 {
     class Program
     {
         static void Main(string[] args)
         {
+            Faktura f1 = new Faktura() { Nr = 1, Kunde = "Hansen", Dato = DateTime.Now.Date };
             
 
+            Console.WriteLine(f1);
 
 
 
@@ -23,19 +24,18 @@ namespace DebugDemo
             }
         }
 
+
     }
-    public class Terning
+
+    public class Faktura
     {
-        
-        public int C
+        public int Nr { get; set; }
+        public string Kunde { get; set; }
+        public DateTime Dato { get; set; }
+
+        public override string ToString()
         {
-            get;
-            set;
+            return $"Faktura nr {Nr} til {Kunde} fra {Dato:D}.";
         }
-
-        public int D { get; private set; } = 1;
-
-
-
     }
 }
