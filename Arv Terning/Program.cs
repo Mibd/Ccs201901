@@ -12,21 +12,21 @@ namespace Arv_Terning
         {
             Terning t1 = new Terning();
 
-            Console.WriteLine($"Start værdi t1 {t1.Værdi}");
+            Console.WriteLine($"Start værdi t1 [{t1.Værdi}]");
             //Console.Write("Press any key to continue . . . ");
             //Console.ReadKey();
             t1.Ryst();
             //Console.WriteLine();
-            Console.WriteLine($"værdi efter ryst t1 {t1.Værdi}");
+            Console.WriteLine($"værdi efter ryst t1 [{t1.Værdi}]");
 
             LudoTerning t2 = new LudoTerning();
 
-            Console.WriteLine($"Start værdi t2 {t2.Værdi}");
+            Console.WriteLine($"Start værdi t2 [{t2.Værdi}]");
             //Console.Write("Press any key to continue . . . ");
             //Console.ReadKey();
             t2.Ryst();
             //Console.WriteLine();
-            Console.WriteLine($"værdi efter ryst t2 {t2.Værdi}");
+            Console.WriteLine($"værdi efter ryst t2 [{t2.Værdi}]");
             Console.WriteLine($"Er Globus {t2.ErGlobus()}");
             Console.WriteLine($"Er Stjerne {t2.ErStjerne()}");
 
