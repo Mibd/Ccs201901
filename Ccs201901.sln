@@ -71,6 +71,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Delegates helt grundlæggen
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Delegates Lambda", "Delegates Lambda\Delegates Lambda.csproj", "{AFA77657-8C90-4560-B332-384668B3BAAA}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Events FileWatcher", "Events FileWatcher\Events FileWatcher.csproj", "{AA60064D-3D0F-48A8-9FB3-89ECF219846D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -213,6 +215,10 @@ Global
 		{AFA77657-8C90-4560-B332-384668B3BAAA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{AFA77657-8C90-4560-B332-384668B3BAAA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{AFA77657-8C90-4560-B332-384668B3BAAA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AA60064D-3D0F-48A8-9FB3-89ECF219846D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AA60064D-3D0F-48A8-9FB3-89ECF219846D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AA60064D-3D0F-48A8-9FB3-89ECF219846D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AA60064D-3D0F-48A8-9FB3-89ECF219846D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
